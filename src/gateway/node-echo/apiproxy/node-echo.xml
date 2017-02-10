@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="echo">
+    <Basepaths>/v1/echo</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1464467798481</CreatedAt>
+    <CreatedBy>srinivas.sudhindra@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>node-echo</DisplayName>
+    <LastModifiedAt>1464467798481</LastModifiedAt>
+    <LastModifiedBy>srinivas.sudhindra@apigee.com</LastModifiedBy>
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://node-echo.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
